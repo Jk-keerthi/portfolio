@@ -1,0 +1,178 @@
+/*========================================RESPONSIVE CSS========================================*/
+/*===============================2000px===================================*/
+@media screen and (max-width: 2000px) {
+  #container {
+    margin-inline: auto;
+    overflow: hidden;
+  }
+}
+/*===============================988px===================================*/
+@media screen and (max-width: 988px) {
+  .about {
+    padding: 1% 5%;
+  }
+
+  .row {
+    justify-content: center;
+    padding: 2%;
+  }
+
+  #projects {
+    padding: 3% 0;
+  }
+  .title {
+    text-align: center;
+    font-size: 25px;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    margin-top: 50px;
+  }
+  .list div {
+    margin: 0;
+    background: rgb(216, 216, 216);
+    padding: 5%;
+    font-size: 16px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s, transform 0.5s;
+  }
+}
+/*===============================846px===================================*/
+@media screen and (max-width: 846px) {
+  .about-sec {
+    font-size: 18px;
+  }
+  .tab {
+    font-size: 12px;
+  }
+  .tab-content {
+    font-size: 12px;
+  }
+  .tab-content span {
+    font-size: 14px;
+  }
+}
+/*===============================766px===================================*/
+@media screen and (max-width: 766px) {
+  /*-------------About---------------*/
+  .about {
+    padding: 0;
+    font-size: 25px;
+  }
+  .about h1 {
+    text-align: center;
+  }
+  .row {
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+  .img {
+    width: 100%;
+    padding: 0;
+    flex-basis: 35%;
+    text-align: center;
+  }
+  .about-sec {
+    align-items: justify;
+    padding: 5%;
+    font-size: 20px;
+    flex-basis: 50%;
+  }
+  .tabs-all {
+    display: flex;
+    margin: 0.6em 0 1em;
+  }
+  .tab {
+    font-size: 18px;
+  }
+  .tab-content {
+    font-size: 15px;
+  }
+  .tab-content span {
+    font-size: 20px;
+  }
+}
+/*===============================600px===================================*/
+@media screen and (max-width: 600px) {
+  .intro {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transform: translate(0%, 30%);
+  }
+  .new {
+    font-size: 20px;
+  }
+  .intro h1 {
+    font-size: 35px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  /*-------------About---------------*/
+
+  .aboutbody {
+    padding: 0em 1em 0em 1em;
+  }
+  .aboutbody p {
+    font-size: 14px;
+  }
+  .desc {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 12;
+  }
+  .contact2 p {
+    letter-spacing: 0px;
+  }
+  .list div {
+    background: url("OIP.jpeg");
+  }
+  form input,
+  form textarea {
+    width: 80%;
+  }
+  /*
+  
+  .about {
+    padding: 0;
+    font-size: 25px;
+  }
+  .about h1 {
+    text-align: center;
+  }
+  .row {
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+  .img {
+    width: 100%;
+    padding: 0;
+    flex-basis: 35%;
+    text-align: center;
+  }
+  .about-sec {
+    align-items: justify;
+    padding: 5%;
+    font-size: 20px;
+    flex-basis: 50%;
+  }
+  .tabs-all {
+    display: flex;
+    margin: 0.6em 0 1em;
+  }
+  .tab {
+    font-size: 18px;
+  }
+  .tab-content {
+    font-size: 15px;
+  }
+  .tab-content span {
+    font-size: 20px;
+  }*/
+}
